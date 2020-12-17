@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Fergus' Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="f_fav.png"/>
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="#intro">Welcome</a></li>
+					<li><a href="#one">Projects</a></li>
+					<li><a href="#two">Information</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h1>My Portfolio</h1>
+				<p>Some of the projects I have been working on outside of University. This is my first time using HTML/CSS/JS so 
+					has been a learning experience. Thanks to <a href="http://html5up.net">HTML5 UP</a> for this beautiful template.
+				</p>
+				<!---
+				<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5
+						UP</a><br />
+					and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+					---->
+			</div>
+		</section>
+
+		<!-- One -->
+		
+		<section id="one" class="wrapper style2 spotlights">
+			<section>
+				<canvas href="#" id="myFOV" class="image" alt="" data-position="top center"></canvas>
+				<div class="content">
+					<div class="inner">
+						<h2>Field of View</h2>
+						<p>This program simulates a top down field of view. Moving the mouse around the canvas changes the position of the light source.</p>
+						<button type="button" onclick="window.open('https://github.com/FergusCurrie/FergusCurrie.github.io/blob/master/assets/js/FOV.js','_blank')">Code</button>
+					</div>
+				</div>
+			</section>
+			<section>
+				<canvas href="#" id="mySudoku" class="image" alt="" data-position="top center"></canvas>
+				<div class="content">
+					<div class="inner">
+						<h2>Sudoku Solver</h2>
+						<p>My old flatmate and I played sudoko together; this recursive solver was handy for validating our solution. </p>
+						<button onclick="solve()">Solve</button>
+						<button onclick="rand()">Randomise</button>
+						<button type="button" onclick="window.open('https://github.com/FergusCurrie/FergusCurrie.github.io/blob/master/assets/js/Sudoku.js','_blank')">Code</button>
+					</div>
+				</div>
+			</section>
+			<section>
+				<canvas href="#" id="mySort" class="image" alt="" data-position="top center"></canvas>
+				<div class="content">
+					<div class="inner">
+						<h2>Sorting Visualiser</h2>
+						<p>Previously I had only used in-built sorting, I thought it would be interesting to try the actual algorthims. Use the drop down to choose the type of sort.</p>
+						<button type="button" onClick=sortArray()>Sort</button>
+						<button type="button" onClick=loadArray()>Randomise</button>
+						<button type="button" onclick="window.open('https://github.com/FergusCurrie/FergusCurrie.github.io/blob/master/assets/js/Sort.js','_blank')">Code</button>
+						<p></p>
+						<select id="sorttype">
+							<option value="quickSort">Quick Sort</option>
+							<option value="insertionSort">Insertion Sort</option>
+							<option value="selectionSort">Selection Sort</option>
+							<option value="bubbleSort">Bubble Sort</option>
+						</select>
+
+					</div>
+				</div>
+			</section>
+			<section>
+				<canvas href="#" id="myAstar" class="image" alt="" data-position="top center"></canvas>
+				<div class="content">
+					<div class="inner">
+						<h2>A* Search Visualiser</h2>
+						<p>I used this algorithm before in a University project and enjoyed it enough to try it again in a different enviroment. Click and/or drag to place/break walls, drag end points to move.</p>
+						<button id = "br" type="button" onClick=doSearch()>Run</button>
+						<button type="button" onClick=doReset()>Reset</button>
+						<button type="button" onclick="window.open('https://github.com/FergusCurrie/FergusCurrie.github.io/blob/master/assets/js/Astar.js','_blank')">Code</button>
+					</div>
+				</div>
+			</section>
+			<section>
+				<canvas href="#" id="myRecursiveTree" class="image" alt="" data-position="top center"></canvas>
+				<div class="content">
+					<div class="inner">
+						<h2>Recursive Tree</h2>
+						<p>Recursion is my favourite technique I've used in computer science, I love the complexity created from a small amout of code.</p>
+						<div>
+							<input type="range" min="0" max="7" value="0" class="slider" id="myRange">
+						</div>	
+						<button type="button" onclick="window.open('https://github.com/FergusCurrie/FergusCurrie.github.io/blob/master/assets/js/RecursiveTree.js','_blank')">Code</button>
+						
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper style3 fade-up">
+			<div class="inner">
+				<div class="features">
+					<section>
+						<span class="icon solid major fa-code"></span>
+						<a onclick="window.open('Fergus_Currie_CV.pdf','_blank')">Resume</a></p>
+					</section>
+					<section>
+						<span class="icon solid major fa-lock"></span>
+						<p><a onclick="window.open('Academic_History_FC.html','_blank')">Academic Transcript</a></p>
+					</section>
+					<section>
+						<span class="icon brands major fa-linkedin"></span>
+						<p><a onclick="window.open('https://www.linkedin.com/in/fergus-currie-167233193/','_blank')">Linkedin</a></p>
+					</section>
+					<section>
+						<span class="icon brands major fa-github-square"></span>
+						<p><a onclick="window.open('https://github.com/FergusCurrie','_blank')">GitHub</a></p>
+					</section>
+					<section>
+						<span class="icon solid major fa-mail-bulk"></span>
+						<p>fergus.currie@gmail.com</p>
+					</section>
+					<section>
+						<span class="icon solid major fa-user"></span>
+						<p>+642102231286</p>
+					</section>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper style1-alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>By Fergus Currie , Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/Sudoku.js"></script>
+	<script src="assets/js/Sort.js"></script>
+	<script src="assets/js/Astar.js"></script>
+	<script src="assets/js/FOV.js"></script>
+	<script src="assets/js/RecursiveTree.js"></script>
+
+</body>
+
+</html>
