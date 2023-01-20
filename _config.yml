@@ -6,12 +6,12 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Fergus and Daniel Blog. 
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
-github_username: jph00
+title: Fergus Blog. 
+description: Machine learning, deep learning, data science, software engineering, computer science, programming, statistics, math. 
+github_username: FergusCurrie
 
 # Email and twitter are optional:
-email:
+email: fergus.currie@gmail.com 
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
