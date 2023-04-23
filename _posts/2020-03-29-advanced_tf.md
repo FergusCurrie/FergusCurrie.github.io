@@ -1,4 +1,4 @@
-# TensorFLow: Advanced Techniques Specialisation
+# Coursera - TensorFlow: Advanced Techniques Specialisation
 
 I just finished DeepLearning.AI's advanced TensorFlow course through coursera. The specialisatoin is divided into four courses;
 
