@@ -6,12 +6,12 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Fergus Blog. 
-description: Machine learning, deep learning, data science, software engineering, computer science, programming, statistics, math. 
+title: Fergus Blog.
+description: artificial inteligence, software and maths
 github_username: FergusCurrie
 
 # Email and twitter are optional:
-email: fergus.currie@gmail.com 
+email: fergus.currie@gmail.com
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
@@ -29,7 +29,7 @@ plugins:
   - jekyll-github-metadata
 
 titles_from_headings:
-  enabled:     true
+  enabled: true
   strip_title: true
   collections: true
 
