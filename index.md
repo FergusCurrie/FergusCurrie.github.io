@@ -1,1 +1,1 @@
-INdex 
+This blog is a collection of semi-finished, semi-written thoughts/results/reviews/notes. I'm writing these posts in a borderline stream of conciousness style, with a rule against proof reading. I would recomennded reading the titles, subheadings and little else. I will update old posts as I learn more, or have new bursts of inspiration. These posts will be part proof of work, part reference material, part writing practice, and part learning. 
