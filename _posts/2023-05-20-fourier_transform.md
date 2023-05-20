@@ -271,7 +271,7 @@ plt.show()
 This concludes the first section on the basics of the fourier transform. I will now move on to representing this in a cleaner way, using complex numbers.
 
 
-# Complex Number representation of the fourier transform
+# Complex Number Fourier Transform
 
 
 ```python
@@ -409,3 +409,19 @@ The minus sign in the exponent switches to tracking clockwise.
 
 The fourier transform can then be expressed....
 
+
+# Inverse Fourier Transform
+
+... 
+
+# Discrete Fourier Transform
+
+...
+
+# Fast Fourier Transform
+
+...
+
+# Short Time Fourier Transform
+
+...
