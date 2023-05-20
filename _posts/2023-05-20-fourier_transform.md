@@ -412,13 +412,8 @@ imageio.mimsave("euler.gif", frames, duration=0.1)
 
 
 
-```python
-display(Image(filename="euler.gif"))
-```
 
-
-    <IPython.core.display.Image object>
-
+![](../images/euler.gif)
 
 This shows how the euler formula traces the unit sphere on the complex plane counter clockwise. This gives an easy way of representing the polar coordinates of a complex number c:
 
