@@ -28,7 +28,7 @@ plt.show()
 
 
     
-![png](../images/output_3_0.png)
+![png](/images/output_3_0.png)
     
 
 
@@ -50,7 +50,7 @@ plt.show()
 
 
     
-![png](../images/output_5_0.png)
+![png](/images/output_5_0.png)
     
 
 
@@ -78,7 +78,7 @@ plt.show()
 
 
     
-![png](../images/output_7_0.png)
+![png](/images/output_7_0.png)
     
 
 
@@ -106,7 +106,7 @@ plt.show()
 
 
     
-![png](../images/output_9_0.png)
+![png](/images/output_9_0.png)
     
 
 
@@ -135,7 +135,7 @@ plt.show()
 
 
     
-![png](../images/output_11_0.png)
+![png](/images/output_11_0.png)
     
 
 
@@ -160,7 +160,7 @@ plt.show()
 
 
     
-![png](../images/output_13_0.png)
+![png](/images/output_13_0.png)
     
 
 
@@ -194,7 +194,7 @@ plt.show()
 
 
     
-![png](../images/output_16_0.png)
+![png](/images/output_16_0.png)
     
 
 
@@ -221,7 +221,7 @@ plt.show()
 
 
     
-![png](../images/output_18_0.png)
+![png](/images/output_18_0.png)
     
 
 
@@ -260,12 +260,11 @@ plt.legend()
 plt.show()
 ```
 
-    No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
 
 
 
     
-![png](../images/output_22_1.png)
+![png](/images/output_22_1.png)
     
 
 
@@ -287,21 +286,6 @@ from IPython.display import Image, display
 
 
 ```
-
-    /tmp/ipykernel_523604/3418027504.py:26: DeprecationWarning: Starting with ImageIO v3 the behavior of this function will switch to that of iio.v3.imread. To keep the current behavior (and make this warning disappear) use `import imageio.v2 as imageio` or call `imageio.v2.imread` directly.
-      frames.append(imageio.imread(f"frame_{i}.png"))
-
-
-
-```python
-
-
-# Display the GIF
-display(Image(filename="animation.gif"))
-```
-
-
-    <IPython.core.display.Image object>
 
 
 First a remineder on complex numbers .
@@ -333,7 +317,7 @@ plt.show()
 
 
     
-![png](../images/output_27_0.png)
+![png](/images/output_27_0.png)
     
 
 
@@ -357,13 +341,9 @@ plt.title('Complex Number')
 
 
 
-    Text(0.5, 1.0, 'Complex Number')
-
-
-
 
     
-![png](../images/output_29_1.png)
+![png](/images/output_29_1.png)
     
 
 
@@ -407,13 +387,11 @@ if os.path.exists('frames'):
 imageio.mimsave("euler.gif", frames, duration=0.1)
 ```
 
-    /tmp/ipykernel_523604/3955710788.py:28: DeprecationWarning: Starting with ImageIO v3 the behavior of this function will switch to that of iio.v3.imread. To keep the current behavior (and make this warning disappear) use `import imageio.v2 as imageio` or call `imageio.v2.imread` directly.
-      frames.append(imageio.imread(f"frames/frame_{i}.png"))
 
 
 
 
-![](../images/euler.gif)
+![](/images/euler.gif)
 
 This shows how the euler formula traces the unit sphere on the complex plane counter clockwise. This gives an easy way of representing the polar coordinates of a complex number c:
 
@@ -429,11 +407,5 @@ $$ c_f = \dfrac{d_f}{\sqrt 2 } \exp(-i2 \pi\theta f)$$
 
 The minus sign in the exponent switches to tracking clockwise. 
 
-The fourier transform can then be expressed
+The fourier transform can then be expressed....
 
-$$g$$
-
-
-```python
-
-```
