@@ -1,8 +1,13 @@
 # Fourier Transform 
 
-Nyquist Frequency
-
-FFT is 
+todo:
+- nquist frequency - redundecny in dftr
+- fourier series
+- fourier transform
+- fourier coefficient (complex val with mag and phase) = values for a speicifc frequency
+- wavelets 
+- dft n2
+- fft nlogn (metaphorof nlogn)
 
 
 ```python
